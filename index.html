@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz | Flamengo</title>
+    <link rel="shortcut icon" href="img/favicon.ico" >
+
+    <script src="js/javascriptquiz.js"></script>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/all-animation.min.css"/>
+
+     <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--Import materialize.css-->
+     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+     <script>
+         var delay = 1000;// 1 segundo
+         setTimeout(function(){
+             alert('Sejam Bem Vindxs Rubro Negro ;)');
+         },delay);
+     </script>
+</head>
+<body>
+    <div id="principal">
+        <strong><p id="titulo">CLIQUE E DESCUBRA O QUANTO VOCÊ É FLAMENGUISTA:</p></strong>
+        <div  class="progress" id="barra">
+            <div id="linha" class="determinate" style="width: 1%;background-color: red;" ></div>
+        </div>
+
+        <div id="caixa">
+            <br>
+            <br>
+            <br>
+            <a class="waves-effect waves-light btn" onclick="mudar()" id="botaoiniciar" >iniciar quiz</a> 
+            
+        </div>
+        
+    </div>
+</body>
+<footer>
+    <strong><p>#Developer Eberty Junior</p></strong>
+</footer>
+</html>
